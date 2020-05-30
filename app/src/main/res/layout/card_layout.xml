@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f0f0f0"
+    android:orientation="vertical"
+    android:elevation="12dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginBottom="15dp"
+    android:layout_marginHorizontal="20dp"
+
+    >
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="60dp"
+        />
+
+    <LinearLayout
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:id="@+id/coverImage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"/>
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="-35dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+
+            <FrameLayout
+                android:id="@+id/date_behavior"
+                app:layout_anchor="@+id/appbar"
+                app:behavior_autoHide="true"
+                android:adjustViewBounds="true"
+                app:layout_anchorGravity="right|end|bottom"
+                android:clickable="false"
+                android:background="@drawable/round_white"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img"
+                    android:src="@drawable/ic_date"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+                <TextView
+                    android:textColor="#606060"
+                    android:id="@+id/releaseDate"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginRight="10dp"
+                    android:text="01 January 1990"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="start"
+                android:layout_marginHorizontal="15dp"
+                android:layout_toStartOf="@+id/date_behavior"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="Waheed Ahmed"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bitcoin Works"
+            android:textSize="15dp"
+            android:ellipsize="end"
+            android:layout_marginTop="15dp"
+            android:paddingHorizontal="15dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_medium"
+            android:lines="3"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="10dp"
+            android:text="Bitcoin Works"
+            android:textSize="13dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:id="@+id/source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="15dp"
+                android:text="CNBC"
+                android:textSize="14sp"
+                android:lines="1"
+                android:ellipsize="end"
+
+                />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 hours ago"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
