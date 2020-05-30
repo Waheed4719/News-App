@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.devadvance.newsapp"
+        applicationId "com.waheed.newsapp"
         minSdkVersion 24
         targetSdkVersion 29
         versionCode 1

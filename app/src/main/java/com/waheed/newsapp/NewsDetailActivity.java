@@ -1,4 +1,4 @@
-package com.Waheed.newsapp;
+package com.waheed.newsapp;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.Waheed.newsapp;
+package com.waheed.newsapp;
 
 import org.junit.Test;
 

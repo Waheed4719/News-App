@@ -1,4 +1,4 @@
-package com.Waheed.newsapp;
+package com.waheed.newsapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,4 +1,4 @@
-package com.Waheed.newsapp;
+package com.waheed.newsapp;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

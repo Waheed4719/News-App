@@ -13,7 +13,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#6200EE"
+        android:background="#801F0F"
         android:elevation="20dp"
         >
 
@@ -24,11 +24,11 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
            android:layout_centerHorizontal="true"
-            android:fontFamily="@font/poppins_semibold"
+            android:fontFamily="@font/open_sans"
             android:text="News App"
             android:textAlignment="center"
             android:textColor="#fff"
-            android:textSize="20sp"
+            android:textSize="24sp"
             tools:ignore="MissingConstraints" />
 
         <ImageView

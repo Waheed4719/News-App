@@ -1,4 +1,4 @@
-package com.Waheed.newsapp;
+package com.waheed.newsapp;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
