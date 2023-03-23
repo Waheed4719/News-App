@@ -5,9 +5,14 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">#CDCDCD</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentTransitions">true</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="android:textColorHint">#CDCDCD</item>
+        <item name="android:actionMenuTextColor">#CDCDCD</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">#CDCDCD</item>
     </style>
 
 

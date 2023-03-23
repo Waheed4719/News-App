@@ -8,7 +8,8 @@ public interface News {
 
     @GET("everything")
     Call<NewsFeed> getNews(
-       @Query("q") String q,
+       @Query("q") String keyword,
+       @Query("language") String language,
        @Query("apiKey") String API_KEY
     ) ;
 
